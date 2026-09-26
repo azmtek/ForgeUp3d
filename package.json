@@ -1,17 +1,15 @@
 {
   "name": "forgeup3d",
   "version": "1.0.0",
+  "private": true,
   "description": "Esse é o site de um projeto de três jovens que estão, por meio da impressão 3d, buscando facilitar o acesso a placas de braille para instituições de auxílio a pessoas com deficiência na região de São Paulo, capital.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ForgeUp3D",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.6.4"
   }
